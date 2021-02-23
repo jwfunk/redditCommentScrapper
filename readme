@@ -1,0 +1,8 @@
+This is a tool to get all the comments from a given post
+This tool requires that you have jq installed and was made for OSX
+
+usage: ./redditCommentScrapper <Post URL> 
+
+compile: gcc-9 -Wall -std=c++11 -lstdc++ -o redditCommentScrapper redditCommentScrapper.cpp
+
+path: cp redditCommentScrapper /usr/local/bin/redditCommentScrapper
